@@ -1,0 +1,37 @@
+= StellarisのリファレンスのAsciiDoc化ツール
+:author: ERRORJP
+:toc: left
+:toc-title: 目次
+:sectnums:
+
+== これはなに？
+Stellaris起動時にファイル出力される、以下のリファレンスファイルを +
+AsciiDocのテーブルリストに変換し、読みやすくするためのツールです。
+
+C:\Users\(ユーザー名)\Documents\Paradox Interactive\Stellaris\logs\script_documentation
+
+* effects.log
+* modifiers.log
+* scopes.log
+* triggers.log
+
+
+== 使い方
+=== 前準備
+. Python3をインストールする +
+  3.4以降必須です
+
+. AsciiDocファイルをプレビュー表示できるツールを入れる +
+  とりあえずブラウザ拡張が一番手っ取り早いので紹介しておきます
+** Firefox +
+https://addons.mozilla.org/ja/firefox/addon/asciidoctorjs-live-preview/
+** Chrome +
+https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia
+
+=== ツールの実行方法
+. ``documentation_to_asciidoc.bat``をダブルクリックしてください
+  outputフォルダ以下にファイルが出力されていたら成功です
+
+=== AsciiDocファイルの閲覧方法
+ブラウザ拡張を入れている場合は、output以下に出力されたファイルを、ブラウザにドラッグ＆ドロップしてください +
+結果がテーブル形式でプレビュー表示されるはずです

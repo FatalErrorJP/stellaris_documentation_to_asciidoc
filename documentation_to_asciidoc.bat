@@ -1,0 +1,1 @@
+ python -B documentation_to_asciidoc.py
